@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E22A7C42DBAB8D600315D95 /* .gitgnore in Resources */ = {isa = PBXBuildFile; fileRef = 2E22A7C32DBAB8CC00315D95 /* .gitgnore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2E22A7612DB97DDD00315D95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		2E22A7502DB97DDB00315D95 /* AIway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E22A7602DB97DDD00315D95 /* AIwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E22A76A2DB97DDD00315D95 /* AIwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E22A7C32DBAB8CC00315D95 /* .gitgnore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitgnore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		2E22A7472DB97DDB00315D95 = {
 			isa = PBXGroup;
 			children = (
+				2E22A7C32DBAB8CC00315D95 /* .gitgnore */,
 				2E22A7522DB97DDB00315D95 /* AIway */,
 				2E22A7632DB97DDD00315D95 /* AIwayTests */,
 				2E22A76D2DB97DDD00315D95 /* AIwayUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E22A7C42DBAB8D600315D95 /* .gitgnore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +403,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIway/Preview Content\"";
+				DEVELOPMENT_TEAM = 49FV4H6729;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cette app a besoin d'accèder à la caméra";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +433,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIway/Preview Content\"";
+				DEVELOPMENT_TEAM = 49FV4H6729;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cette app a besoin d'accèder à la caméra";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
